@@ -1,0 +1,146 @@
+State of Texas
+Comptroller of Public Accounts
+Open Government Division
+
+Record Layout and Field Descriptions for:
+
+ACTIVE SALES TAX PERMIT HOLDER RECORDS
+
+Format: Standard Data Format (SDF)
+
+Columns  Length  Field Description
+-------  ------  ---------------------------------------------------
+  1-301          ACTIVE SALES TAX PERMIT HOLDER RECORD
+  1-11     11    Taxpayer Number
+ 12-16      5    Outlet Number
+ 17-66     50    Taxpayer Name
+67-106     40    Taxpayer Address
+107-126    20    Taxpayer City
+127-128     2    Taxpayer State
+129-133     5    Taxpayer Zip Code
+134-136     3    Taxpayer County Code
+137-146    10    Taxpayer Phone Number
+147-148     2    Taxpayer Organization Type
+149-198    50    Outlet Name
+199-238    40    Outlet Address
+239-258    20    Outlet City
+259-260     2    Outlet State
+261-265     5    Outlet Zip Code
+266-268     3    Outlet County Code
+269-278    10    Outlet Phone Number
+279-284     6    Outlet NAICS Code
+285-285     1    Outlet Inside/Outside City Limits Indicator
+286-293     8    Outlet Permit Issue Date  (YYYYMMDD)
+294-301     8    Outlet First Sales Date  (YYYYMMDD)
+
+NOTES:
+
+Standard Data Format (SDF) means that each record is the same fixed
+length and the fields are in the same columns for all records.
+There are no delimiters to mark the beginning and ending of the
+fields.
+
+The Master and Outlet information have been combined into one
+record.  Each record is an Outlet with the Master (Taxpayer)
+information preceding the Outlet information.
+
+This file is in order by the Taxpayer Number, Outlet Number fields.
+
+FIELD VALUES:
+
+Taxpayer Organization Type:
+
+AB          TEXAS BUSINESS ASSOC            
+AC          FRGN BUSINESS ASSOC             
+AF          FOREIGN PROFESSIONAL ASSOCIATION
+AP          TEXAS PROFESSIONAL ASSOCIATION  
+AR          OTHER ASSOCIATION               
+C           CORPORATION                     
+CF          FOREIGN PROFIT CORPORATION      
+CI          FOREIGN LMTD LIAB CO - OOS      
+CL          TEXAS LIMITED LIABILITY COMPANY 
+CM          FOREIGN NON-PROFIT CORP - OOS   
+CN          TEXAS NON-PROFIT CORPORATION    
+CP          TEXAS PROFESSIONAL CORPORATION  
+CR          TEXAS INSURANCE CORPORATION     
+CS          FOREIGN INSURANCE CORP - OOS    
+CT          TEXAS PROFIT CORPORATION        
+CU          FOREIGN PROFESSIONAL CORPORATION
+CW          TEXAS RAILROAD CORPORATION                          
+CX          FOREIGN RAILROAD CORPORATION                        
+ES          ESTATE                                              
+FA          FINANCIAL INSTITUTION - STATE SAVINGS & LOAN - OOS  
+FB          FINANCIAL INSTITUTION - STATE SAVINGS B ANK - TX    
+FC          FINANCIAL INSTITUTION - FEDERAL CREDIT UNION        
+FD          FINANCIAL INSTITUTION - STATE SAVINGS & LOAN - TX   
+FE          FINANCIAL INSTITUTION - FEDERAL SAVINGS & LOAN-TX   
+FF          FINANCIAL INSTITUTION - FEDERAL BANK - TX           
+FG          FINANCIAL INSTITUTION - FEDERAL SAVINGS BANK - TX   
+FH          FINANCIAL INSTITUTION - STATE SAVINGS BANK - OOS    
+FI          FINANCIAL INSTITUTION - STATE CREDIT UNION - TX     
+FJ          FINANCIAL INSTITUTION - FEDERAL BANK - OOS          
+FK          FINANCIAL INSTITUTION - FEDERAL SAVINGS BANK - OOS  
+FL          FINANCIAL INSTITUTION - STATE LIMITED BANK ASSOC    
+FM          FINANCIAL INSTITUTION - TRUST COMPANY              
+FN          FINANCIAL INSTITUTION - FEDERAL SAVINGS & LOAN-OOS 
+FO          FINANCIAL INSTITUTION - STATE BANK - OOS           
+FP          FINANCIAL INSTITUTION                              
+FR          FINANCIAL INSTITUTION - FOREIGN COUNTRY BANK       
+FS          FINANCIAL INSTITUTION - STATE BANK - TX            
+FT          FINANCIAL INSTITUTION - STATE CREDIT UNION - OOS   
+GC          CITY                                               
+GD          FEDERAL AGENCY                                     
+GF          STATE AGENCY - OOS                                 
+GJ          JUNIOR COLLEGE                                     
+GL          LOCAL OFFICIAL                                     
+GM          MASS TRANSIT                                       
+GO          COUNTY                                             
+GP          SPECIAL PURPOSE DISTRICT                           
+GR          RAPID TRANSIT              
+GS          SCHOOL DISTRICT            
+GT          STATE AGENCY - TX          
+GU          STATE COLLEGE/UNIVERSITY   
+GY          COMMUNITY COLLEGE          
+HF          FRGN HOLDING COMPANY       
+IS          INDIVIDUAL - SOLE OWNER    
+J           JOINT VENTURE              
+L           LIMITED (LIABILITY) COMPANY
+M           LIMITED (LIABILITY) PARTNERSHIP 
+O           OTHER                           
+P           GENERAL PARTNERSHIP             
+PB          BUS GENERAL PRTNSHP             
+PF          FRGN LIMITED PRTNSHP            
+PI          IND GENERAL PRTNSHP             
+PL          TX LIMITED PRTNSHP              
+PO          OIL & GAS SPECIAL               
+PV          TEXAS JOINT VENTURE             
+PW          FRGN JOINT VENTURE              
+PX          TX LLP REGISTRATION             
+PY          FRGN LLP REGISTRATION           
+PZ          IND SUCCESSOR PRTSHP            
+S           SOLE PROPRIETORSHIP             
+SF          FRGN JOINT STOCK CO             
+ST          TEXAS JOINT STOCK CO            
+TF          FOREIGN BUSINESS TRUST               
+TH          TX RL EST INV TRST                   
+TI          FOREIGN REAL ESTATE INVESTMENT TRUST 
+TR          TRUST                                
+UF          UNKNOWN - FRANCHISE                  
+UK          UNKNOWN                              
+
+Outlet Inside/Outside City Limits Indicator
+  Y = Inside City Limits
+  N = Not Inside City Limits
+
+IMPORTANT: Many steps are taken to ensure the greatest accuracy
+possible for this data. However, some inaccurate data may appear
+if the files have not been recently updated.  If you notice
+information that may be incorrect, please notify us so that we can
+take steps to correct the file.
+
+You can reach us at:
+  E-mail: open.records@cpa.state.tx.us
+  Phone: 1-800-531-5441, ext. 6-6013 (936-6013 in Austin)
+
+
+ORD Ref-ID: st-act-sdf301-y2k(9912)
